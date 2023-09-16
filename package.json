@@ -1,0 +1,13 @@
+{
+  "name": "dharmas",
+  "version": "1.0.0",
+  "description": "",
+	"type": "module",
+  "main": "README.js",
+  "scripts": {
+    "build": "node README.js > README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
