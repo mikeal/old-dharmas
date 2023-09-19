@@ -28,7 +28,7 @@ class Gate extends Dharma {
 const counting = new Gate({ name: 'counting' })
 const following = new Gate({ name: 'following' })
 const stabilization = new Gate({ name: 'stabilization' })
-const contemplation = new Gate({ name: 'contemplation') })
+const contemplation = new Gate({ name: 'contemplation' })
 const turning = new Gate({ name: 'turning' })
 const purification = new Gate({ name: 'purification' })
 
@@ -41,4 +41,4 @@ sequential = sequence([
 	purification
 ])
 
-export { sequential, counting, following, stabilization, contemplation, turning, purificiation }
+export { sequential, counting, following, stabilization, contemplation, turning, purification }

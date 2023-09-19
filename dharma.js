@@ -19,6 +19,9 @@ class Dharma {
 		if (!this.marks.has(mark.name)) this.marks.set(mark.name, mark)
 		return mark
 	}
+	static create (name, opts) {
+		return new ( opts.Class || Dharma)({ ...opts, name })
+	}
 }
 
 const abhidharma = new Map()
@@ -50,11 +53,14 @@ class Dharmas extends Dharma {
 		this.sequential = new Map()
 	}
 	sequence (arr) {
-		const name = `${this.name} in sequence [ ${ arr.map(dharma => dharma.name).join(',' } ]`
+		const name = `${this.name} in sequence [ ${ arr.map(dharma => dharma.name).join(',') } ]`
 		if (!this.sequential.has(name)) {
 			this.sequential.set(name, sequence(name, arr))
 		}
 		return this.sequential.get(name)
+	}
+	static create (name, dharmas) {
+		return super.create(name, { dharmas, Class: this })
 	}
 }
 
@@ -68,11 +74,13 @@ class Sequence extends Dharmas {
 			i++
 		}
 	}
+	static create (name, sequence) {
+		return super.create(name, { sequence, Class: this })
+	}
 }
 
-const sequence = (name, sequence) => new Sequence({ name, sequence })
+const dharma = Dharma.create
+const sequence = Sequence.create
+const dharmas = Dharmas.create
 
-const dharma = (...args) => new Dharma(...args)
-const dharmas = (...args) => new Dharmas(...args)
-
-export { Dharma, dharma, Dharmas, dharmas, Mark, sequence }
+export { Dharma, dharma, Dharmas, dharmas, Mark, Sequence, sequence }
