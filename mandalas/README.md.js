@@ -25,7 +25,6 @@ Success | Illuminator |
 | 💦 Water | 🪨 Earth | 🔥 Fire | 🌬 Air | Space |
 | Relative Alaya | Manas | Mano | Sense | Absolute Alaya |
 | Joyous Land | Glorious Land | Happy Land | Land of Perfected Good Actions | All-Pervading Circle (Ghanavyuga) |
-| http://tibetanbuddhistencyclopedia.com/en/index.php?title=Buddha_lochana | http://www.tibetanbuddhistencyclopedia.com/en/index.php?title=Mamaki | https://www.wisdomlib.org/definition/pandaravasini | http://www.tibetanbuddhistencyclopedia.com/en/index.php?title=Samayatara | https://mandala-of-love.com/2019/06/15/akashadhateshvari-luminous-space/ |
 | Vajra Heruka | Ratna Heruka | Padma Heruka | Karma Heruka | Buddha Heruka |
 | Kshitigarbha, Maitreya | Akashagarbha, Samantabhadra | Avalokiteshvara, Manjushri | Vajrapani, Sarvanivaranavishkambhin |  |
 | Heart | Navel | Throat | Base | Crown |
